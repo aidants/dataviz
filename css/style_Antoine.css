@@ -610,6 +610,11 @@ h13 {
 	line-height: 20px;
 	color: #0dad8d;
 }
+h14 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
 
 
 /* Popup container */
