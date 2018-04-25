@@ -328,7 +328,7 @@
         <h7>Quels sont les besoins?</h7>
         <br>
         <div id="highcharts-dfd779ec-2a3d-434e-847b-2a3b97dff637"></div><script>
-          (function(){ var files = ["https://code.highcharts.com/stock/highstock.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/highcharts-3d.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/funnel.js","https://code.highcharts.com/modules/annotations.js","https://code.highcharts.com/modules/solid-gauge.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){var options={"chart":{"type":"pyramid"},"plotOptions":{"series":{"datalabels":{"color":"#000000"},"dataLabels":{"softConnector":true,"enabled":false},"animation":false}},"series[0]":{"width":"64%"},"title":{"text":""},"subtitle":{"text":""},"exporting":{},"series":[{"name":"Pourcentage","turboThreshold":0}],"data":{"csv":"\"null\";\"Pourcentage\"\n\"Soutien moral\";53\n\"Tâches administratives\";49\n\"Tâches ménagères\";48\n\"Surveillance\";26\n\"Gestion du budget\";23\n\"Soins personnels\";13","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{}}],"colors":["#8EC3A7","#DC5356","#F0CB69","#5FB7E5","#AB91C5","#6D53DC"]};/*
+          (function(){ var files = ["https://code.highcharts.com/stock/highstock.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/highcharts-3d.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/funnel.js","https://code.highcharts.com/modules/annotations.js","https://code.highcharts.com/modules/solid-gauge.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){var options={"chart":{"type":"pyramid","height":300,"polar":false,width:350},"plotOptions":{"series":{"datalabels":{"color":"#000000"},"dataLabels":{"softConnector":true,"enabled":false},"animation":false}},"series[0]":{"width":"64%"},"title":{"text":""},"subtitle":{"text":""},"exporting":{},"series":[{"name":"Pourcentage","turboThreshold":0}],"data":{"csv":"\"null\";\"Pourcentage\"\n\"Soutien moral\";53\n\"Tâches administratives\";49\n\"Tâches ménagères\";48\n\"Surveillance\";26\n\"Gestion du budget\";23\n\"Soins personnels\";13","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{}}],"colors":["#8EC3A7","#DC5356","#F0CB69","#5FB7E5","#AB91C5","#6D53DC"]};/*
           // Sample of extending options:
           Highcharts.merge(true, options, {
               chart: {
@@ -355,18 +355,17 @@
         <div class="about-text">
         <br>
         <br>
-        <h13><b>Le soutien moral apparait comme étant le besoin principal. <br>  <br></b></h13>
-
-        <p><b>C'est une activité à part entière qui exige beaucoup d'énergie pour faire preuve d'écoute et d'empathie. </br> </p></b>
-
-        <p><b>Les tâches ménagères et administratives</b> mobilisent également beaucoup d'aidants (plus d'un aidant sur 2 concerné par l'une et/ou l'autre).<p>
         <br>
-        <p>Sans oublier <b>les soins personnels</b>, qui, s'ils ne concernent que 13% des cas sont probablement les plus exigeants. Ces cas traduisent majoritairement des situations de handicap et de perte d'autonomie.</p>
+        <br>
+        <br>
+        <h13><b><p>Le soutien moral apparait comme étant le besoin principal.</p></b></h13>
+        <h13><b><p>Les soins personnels, qui, s'ils ne concernent que 13% des cas sont probablement les plus exigeants.</p></b></h13>
         </div>
       </div>
       <div class="col-md-1">
       </div>
     </div>
+    <br>
     <br>
     <br>
     <div class="row">
@@ -378,13 +377,12 @@
         <br>
         <br>
         <br>
-        <h13><b>Ce sont les proches familiaux qui composent le groupe des aidants le plus important
-           avec en premier lieu les enfants!</b></h13>
+        <br>
+        <br>
+        <h13><b><p>Ce sont les proches familiaux qui composent le groupe des aidants le plus important
+           avec en premier lieu les enfants!<p></b></h13>
+        <h13><b><p>Les amis sont aussi en très bonne place pour honorer la relation d'aide.<p></b></h13>
         <div class="space"></div>
-        <p><b>Les amis</b> sont aussi en très bonne place pour honorer la relation d'aide.<p>
-        <div class="space"></div>
-        <p>L'aidant type a <b>53 ans</b>. Etre aidant n'est <b>pas une activité genrée</b>: il y a <b>53% de femmes pour 47% d'hommes</b> engagés.
-        Ils sont plus de 2/3 a exercé une activité professionnelle à temps complet.<p>
         </div>
       </div>
       <div class="col-md-5">
@@ -402,7 +400,7 @@
         <h7>Quel temps consacrent-ils par semaine?</h7>
         <p><p>
           <div id="highcharts-a9d2107c-1ef2-4bae-a7cc-2d0aa9c7a739"></div><script>
-          (function(){ var files = ["https://code.highcharts.com/stock/highstock.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/highcharts-3d.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/funnel.js","https://code.highcharts.com/modules/annotations.js","https://code.highcharts.com/modules/solid-gauge.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){var options={"chart":{"type":"pie","polar":false},"plotOptions":{"pie":{"allowPointSelect":true,"cursor":true,"showInLegend":true,"innerSize":"60%","dataLabels":{"enabled":false}},"series":{"animation":false}},"title":{"text":""},"subtitle":{"text":""},"exporting":{},"series":[{"name":"Pourcentage (%)","turboThreshold":0,"_colorIndex":0,"_symbolIndex":0}],"data":{"csv":"\"null\";\"Pourcentage (%)\"\n\"Au plus 6 heures\";56\n\"De 6 à 20 heures\";30\n\"De 20 à 34 heures\";7\n\"Plus de 34 heures\";7","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{}}],"colors":["#8EC3A7","#DC5356","#F0CB69","#5FB7E5","#AB91C5"]};/*
+          (function(){ var files = ["https://code.highcharts.com/stock/highstock.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/highcharts-3d.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/funnel.js","https://code.highcharts.com/modules/annotations.js","https://code.highcharts.com/modules/solid-gauge.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){var options={"chart":{"type":"pie","height":300,"polar":false,width:350},"plotOptions":{"pie":{"allowPointSelect":true,"cursor":true,"showInLegend":true,"innerSize":"60%","dataLabels":{"enabled":false}},"series":{"animation":false}},"title":{"text":""},"subtitle":{"text":""},"exporting":{},"series":[{"name":"Pourcentage (%)","turboThreshold":0,"_colorIndex":0,"_symbolIndex":0}],"data":{"csv":"\"null\";\"Pourcentage (%)\"\n\"Au plus 6 heures\";56\n\"De 6 à 20 heures\";30\n\"De 20 à 34 heures\";7\n\"Plus de 34 heures\";7","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{}}],"colors":["#8EC3A7","#DC5356","#F0CB69","#5FB7E5","#AB91C5"]};/*
           // Sample of extending options:
           Highcharts.merge(true, options, {
               chart: {
@@ -435,7 +433,7 @@
         <br>
         <br>
         <br>
-        <h13><b>Un aidant sur deux dédie au moins une heure par jour à ses activités de soutien.</b></h13>
+        <h13><b><p>Un aidant sur deux dédie au moins une heure par jour à ses activités de soutien.<p></b></h13>
         </div>
       </div>
       <div class="col-md-1">
@@ -456,6 +454,7 @@
       <h6>Le vieillissement de la population n'est pas un phénomène propre à la France. La dépendance est un phénomène global qui s'accentue avec le temps. La prise en charge continuera d'être assurée par les aidants, mais une intervention publique globale sera nécessaire.</h6>
                 <h13><b>Tous les pays du monde sont ou seront concernés</b></h13>
         <div class="space"></div>
+        <p align="left"><i>  Fais glisser ta souris sur l'année pour voir le graphique s'animer! </br> </i> <p>
 
     </div>
 
